@@ -14,24 +14,25 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <!-- Body - Портфоліо -->
   <body class="portfolio-page">
     <!-- Header - Портфоліо -->
     <header>
-      <div class="container header-container">
-        <nav class="header-navigation">
-          <a href="index.html" class="logo"
-            ><span class="first-title">Web</span
-            ><span class="second-title">Studio</span></a
+      <div class="container header">
+        <nav class="header__navigation">
+          <a href="index.html" class="logo-studio"
+            ><span class="logo-studio__first-title">Web</span
+            ><span class="logo-studio__second-title">Studio</span></a
           >
-          <ul class="navigation header-menu">
+          <ul class="header__nav-menu">
             <li>
-              <a class="item-navigation" href="index.html">Студія</a>
+              <a class="header__item" href="index.html">Студія</a>
             </li>
             <li>
               <div class="strip-line">
-                <a class="item-navigation current" href="portfolio.html"
+                <a class="header__item current" href="portfolio.html"
                   >Портфоліо</a
                 >
               </div>
@@ -41,9 +42,9 @@
             </li>
           </ul>
         </nav>
-        <ul class="contacts header-contacts">
+        <ul class="connection">
           <li class="header-mail">
-            <a class="item-contacts" href="email:info@devstudio.com">
+            <a class="connection__contact" href="email:info@devstudio.com">
               <svg
                 aria-label="конверт"
                 class="icon-header"
@@ -56,7 +57,7 @@
             >
           </li>
           <li>
-            <a class="item-contacts" href="tel:+380961111111">
+            <a class="connection__contact" href="tel:+380961111111">
               <svg
                 aria-label="смартфон"
                 class="icon-header"
@@ -279,28 +280,32 @@
       </section>
     </main>
     <!-- Footer - Портфоліо -->
-    <footer class="footer logo-footer">
+    <footer class="footer">
       <div class="container footer-general">
         <div class="footer-nav">
-          <a href="#" class="logo logo-footer"
-            ><span class="first-title">Web</span
-            ><span class="third-title">Studio</span></a
+          <a href="#" class="logo-studio"
+            ><span class="logo-studio__first-title">Web</span
+            ><span class="logo-studio__third-title">Studio</span></a
           >
           <ul class="contacts footer-contacts">
-            <li class="footer-item-contacts">
+            <li class="footer-connection__contact">
               <a
-                class="item-contacts adress"
+                class="connection__contact adress"
                 href="https://goo.gl/maps/Yw9RbGyQuBQphTTS8"
                 >м. Київ, пр-т Лесі Українки, 26
               </a>
             </li>
-            <li class="footer-item-contacts">
-              <a class="item-contacts mail" href="email:info@example.com"
-                >info@example.com</a
+            <li class="footer-connection__contact">
+              <a
+                class="connection__contact connection__contact_direct"
+                href="email:info@devstudio.com"
+                >info@devstudio.com</a
               >
             </li>
-            <li class="footer-item-contacts">
-              <a class="item-contacts number" href="tel:+380961111111"
+            <li class="footer-connection__contact">
+              <a
+                class="connection__contact connection__contact_direct"
+                href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
             </li>
@@ -314,7 +319,7 @@
               <a href="" class="social-link-footer">
                 <svg
                   aria-label="інстаграм"
-                  class="social-list-icon icon-footer"
+                  class="social-list__icon icon-footer"
                 >
                   <use href="./images/sprite.svg#icon-instagram"></use>
                 </svg>
@@ -322,21 +327,24 @@
             </li>
             <li class="list-item-footer">
               <a href="" class="social-link-footer">
-                <svg aria-label="твітер" class="social-list-icon icon-footer">
+                <svg aria-label="твітер" class="social-list__icon icon-footer">
                   <use href="./images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="list-item-footer">
               <a href="" class="social-link-footer">
-                <svg aria-label="фейсбук" class="social-list-icon icon-footer">
+                <svg aria-label="фейсбук" class="social-list__icon icon-footer">
                   <use href="./images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="list-item-footer">
               <a href="" class="social-link-footer">
-                <svg aria-label="лінкедін" class="social-list-icon icon-footer">
+                <svg
+                  aria-label="лінкедін"
+                  class="social-list__icon icon-footer"
+                >
                   <use href="./images/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
