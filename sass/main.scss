@@ -1,2 +1,22 @@
+@import './base/common';
+@import './base/container';
+
 @import "./utils/variables";
-@import './base/base';
+@import './utils/visually-hiden';
+
+@import './components/modal-btn';
+@import './components/backdrop';
+@import './components/modal-win';
+@import './components/modal-form';
+@import './components/overlay';
+@import './components/logo-ws';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/footer';
+@import './layout/customers';
+@import './layout/social-list';
+@import './layout/team-section';
+@import './layout/work-section';
+@import './layout/portfolio';
+@import './layout/features-section';
