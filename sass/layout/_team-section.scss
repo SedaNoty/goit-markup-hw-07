@@ -9,7 +9,7 @@
 
 .team__foto {
     text-align: center;
-    background-color: var(--main-page);
+    background-color: $main-color;
     border-radius: 0 0 4px 4px;
     box-shadow: var(--card-shadow);
     width: calc((100% - 3 * 30px)/4);

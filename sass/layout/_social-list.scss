@@ -18,14 +18,14 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: var(--main-page);
+    background-color: $main-color;
     transition: background-color var(--time-bezier);
     &:hover,
     &:focus {
-        background-color: var(--text-items);
+        background-color: $text-items;
     }
     &:hover .social-list__icon,
     &:focus .social-list__icon {
-        fill: var(--main-page);
+        fill: $main-color;
     }
 }

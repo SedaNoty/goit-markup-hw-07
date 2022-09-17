@@ -3,7 +3,7 @@
     font-size: 20px;
     line-height: 1.15;
     text-align: center;
-    color: var(--text-main);
+    color: $text-main;
     margin-bottom: 12px;
 }
 
@@ -21,10 +21,10 @@
     padding-left: 42px;
     transition: border-color var(--time-bezier);
     &:focus {
-        border-color: var(--text-items);
+        border-color: $text-items;
         outline: none;
             &+.icon-modal {
-                fill: var(--text-items);
+                fill: $text-items;
             }
     }
 }
@@ -49,7 +49,7 @@
     transition: border-color var(--time-bezier);
     &:focus {
         outline: none;
-        border-color: var(--text-items);
+        border-color: $text-items;
     }
 
     &::placeholder {
@@ -73,16 +73,16 @@
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
-    fill: var(--text-main);
+    fill: $text-main;
     transition: fill var(--time-bezier);
 }
 
 .modal-form-icon-check {
     width: 16px;
     height: 15px;
-    border: 2px solid var(--text-main);
+    border: 2px solid $text-main;
     border-radius: 2px;
-    background-color: var(--main-page);
+    background-color: $main-color;
     cursor: pointer;
     margin-right: 7px;
 }
@@ -92,10 +92,10 @@
     appearance: none;
     text-decoration-color: #188CE8;
     &:focus+.modal-form-icon-check {
-        box-shadow: 0 0 0 1px var(--text-items);
+        box-shadow: 0 0 0 1px $text-items;
     }
     &:checked+.modal-form-icon-check {
-        background-color: var(--text-items);
+        background-color: $text-items;
         border: none;
         & .modal-form-icon-policy {
             display: block;
@@ -113,14 +113,14 @@
 
 .modal-form-icon-policy {
     display: none;
-    fill: var(--main-page);
+    fill: $main-color;
 }
 
 .modal-text-policy {
     font-size: 14px;
     line-height: 1.7;
     text-decoration: underline;
-    color: var(--text-items);
+    color: $text-items;
         &:hover {
             text-decoration: none;
         }
@@ -140,9 +140,9 @@
     font-size: 16px;
     line-height: 1.88;
     font-weight: 700;
-    background-color: var(--text-items);
-    color: var(--main-page);
-    border: var(--text-items);
+    background-color: $text-items;
+    color: $main-color;
+    border: $text-items;
     letter-spacing: 0.06em;
     border-radius: 4px;
     text-align: center;
@@ -150,7 +150,7 @@
     transition: color var(--time-bezier), background-color var(--time-bezier);
         &:hover,
         &:focus {
-            color: var(--main-page);
+            color: $main-color;
             background-color: var(--bcg-btn-hero);
         }
 }

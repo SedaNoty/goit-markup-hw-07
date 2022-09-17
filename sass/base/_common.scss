@@ -18,18 +18,13 @@ img {
     display: block;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--main-page);
-    color: var(--text-main);
+    font-family: $fontMain;
+    background-color: $main-color;
+    color: $text-main;
 }
 
 .pointer {
     cursor: pointer;
-}
-
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .connection__contact,

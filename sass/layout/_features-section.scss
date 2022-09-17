@@ -1,6 +1,5 @@
 .features__features-menu {
-    display: flex;
-    justify-content: space-between;
+    @include flexSpaceBetween();
 }
 
 .features__features-card {

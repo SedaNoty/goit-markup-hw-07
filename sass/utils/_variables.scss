@@ -1,13 +1,10 @@
 :root {
-    --main-page: #FFFFFF;
-    --main-opacity: #FFFFFF60;
+    
     --main-opacity-two: #FFFFFF10;
-    --text-items: #2196F3;
     --overlay-cards: rgba(33, 150, 243, 0.9);
     --element-hero: #2F303A;
     --strip-applications: #2F303A80;
     --text-page: #000000;
-    --text-main: #212121;
     --text-contacts: #757575;
     --bcg-button: #F5F4FA;
     --bcg-btn-hero: #188CE8;
@@ -33,3 +30,12 @@
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+
+$fontMain: "Roboto", sans-serif;
+$fontLogo: 'Raleway', sans-serif;
+$main-color: #FFFFFF;
+$text-main: #212121;
+$text-items: #2196F3;
+$main-opacity: #FFFFFF60;
+$overlay-cards: rgba(33, 150, 243, 0.9);

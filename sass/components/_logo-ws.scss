@@ -1,14 +1,10 @@
 .logo-studio {
-    font-family: 'Raleway';
+    font-family: $fontLogo;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.24;
-}
-
-
-.logo-studio {
     &__first-title {
-    color: var(--text-items);
+        color: $text-items;
     }
 
     &__second-title {
@@ -16,6 +12,6 @@
     }
 
     &__third-title {
-        color: var(--main-page);
+        color: $main-color;
     }
 }

@@ -9,7 +9,7 @@
     line-height: 1.43;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--main-page);
+    color: $main-color;
     margin-bottom: 20px;
 }
 
@@ -20,7 +20,7 @@
 .user-mail-input {
     width: 358px;
     height: 50px;
-    color: var(--main-page);
+    color: $main-color;
     font-size: 16px;
     line-height: 1.25;
     padding-left: 16px;
@@ -31,7 +31,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 1.25;
-        color: var(--main-opacity);
+        color: $main-opacity;
         margin-left: 16px;
     }
 }
@@ -43,9 +43,9 @@
     font-size: 16px;
     line-height: 1.88;
     font-weight: 700;
-    background-color: var(--text-items);
-    color: var(--main-page);
-    border: var(--text-items);
+    background-color: $text-items;
+    color: $main-color;
+    border: $text-items;
     letter-spacing: 0.06em;
     border-radius: 4px;
     cursor: pointer;
@@ -53,7 +53,7 @@
     transition: color var(--time-bezier), background-color var(--time-bezier);
     &:hover,
     &:focus {
-        color: var(--main-page);
+        color: $main-color;
         background-color: var(--bcg-btn-hero);
     }
 }
@@ -61,7 +61,7 @@
 .icon-send-plane {
     display: inline-block;
     vertical-align: middle;
-    fill: var(--main-page);
+    fill: $main-color;
 }
 
 
@@ -79,7 +79,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-weight: 400;
-    color: var(--main-page);
+    color: $main-color;
 }
 
 
@@ -87,7 +87,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     font-weight: 400;
-    color: var(--main-opacity);
+    color: $main-opacity;
 }
 
 
@@ -100,7 +100,7 @@
     font-weight: 700;
     line-height: 1.24;
     text-transform: uppercase;
-    color: var(--main-page);
+    color: $main-color;
     letter-spacing: 3%;
     display: inline-block;
     margin-bottom: 20px;
@@ -130,7 +130,7 @@
 }
 
 .icon-footer {
-    fill: var(--main-page);
+    fill: $main-color;
 }
 
 .social-link-footer {
@@ -144,7 +144,7 @@
     transition: background-color var(--time-bezier);
     &:hover,
     &:focus {
-        background-color: var(--text-items)
+        background-color: $text-items
     }
 }
 

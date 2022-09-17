@@ -1,15 +1,19 @@
+@import "./utils/variables";
+@import './utils/placeholder';
+
 @import './base/common';
 @import './base/container';
 
-@import "./utils/variables";
 @import './utils/visually-hiden';
 
+@import './components/connection';
 @import './components/modal-btn';
 @import './components/backdrop';
 @import './components/modal-win';
 @import './components/modal-form';
 @import './components/overlay';
 @import './components/logo-ws';
+@import './components/portfolio-btn';
 
 @import './layout/header';
 @import './layout/hero';
